@@ -22,6 +22,10 @@ Head household has a head of household, and some have a spouse.
 ## Scheduling
 
 
+## References 
+
+http://jameskitts.com/pubs/Demography_2009.pdf
+
 
 
 ## Data
