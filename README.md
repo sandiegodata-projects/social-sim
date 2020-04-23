@@ -18,6 +18,10 @@ Some of the workgroups are restuarants, nighclubs and stores. These are also loc
 
 Head household has a head of household, and some have a spouse. 
 
+## Friends Network
+
+Gallup has a [poll on the number of friends pepople have](https://news.gallup.com/poll/10891/americans-satisfied-number-friends-closeness-friendships.aspx).
+
 
 ## Scheduling
 
