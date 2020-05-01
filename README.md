@@ -4,11 +4,21 @@ A socially interaction simulation for studying infection
 
 # Overview
 
-The simulation has these phases:
+Input to the simulator consists of:
 
-* Generate a community and social network built from households, people and social connections
-* Create a schedule for each person, where the person is, and who the person intercts with, for different times of day
-* Simulate infections as people are moved thorugh their schedules. 
+* A list of people, organized into households
+* A set of locations where people go, such as home, work, school or shopping. 
+* Weekly schedules for each person, with two variants:
+** A typical schedule that the person will follow without restriction
+** A restricted scheudle that accounts for policy changes, such as closing workplaces or social distancing. 
+
+The simulator runs by placing each person into a location according to the person's schedule and then solves a compartmental infection model to adjust the state of each person. 
+
+# Implementation
+
+It may be sufficient to run the simulation with a timestep of 1 hour, rather than actually solving the system of ODEs for each location. Assuming that there is random mixing at each location, each person has a probability to be infected based on the number of infected people at the location and the susceptability of the person. 
+
+# Data
 
 The source data is the Current Population Survey for 2019. The simulation selects 40,000 households, approximately 100,000 people, and allocates the households to 4 communities, each with 10,000 households. Each community is further divided into 9 neighborhoods. 
 
@@ -17,6 +27,13 @@ People are assigned to workgroups based on their ocupation codes, with no workgr
 Some of the workgroups are restuarants, nighclubs and stores. These are also locations that will be allocated patrons. 
 
 Head household has a head of household, and some have a spouse. 
+
+## Components
+
+
+
+
+
 
 ## Friends Network
 
