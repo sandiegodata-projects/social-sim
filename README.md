@@ -1,6 +1,19 @@
 # social-sim
 A socially interaction simulation for studying infection
 
+# Existing Models
+The Institute for Disease Modeling has a really [interesting COVID model written in python. ](https://github.com/InstituteforDiseaseModeling) as well as a tool for [generating synthetic populations. ](https://institutefordiseasemodeling.github.io/synthpops/installation.html)
+
+* http://covidagentmodel.com/
+* http://covidsim.eu/
+
+
+## Research 
+
+* [Your Model is Wrong](https://medium.com/@jamesjansson/covid-19-modelling-is-wrong-f7246e3dc396)
+* [Network Modelling for Epidemics](http://statnet.org/nme/)
+* https://scholarblogs.emory.edu/epi/2020/04/05/modeling-covid-19/
+
 
 # Overview
 
